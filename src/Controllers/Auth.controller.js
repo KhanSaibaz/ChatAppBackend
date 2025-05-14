@@ -89,7 +89,6 @@ const userInfoController = asyncHandler(async (req, res) => {
     throw new ApiError(400, "User was not Found")
   }
 
-  console.log(findUser,'saibaz khan');
   
 
   return res
